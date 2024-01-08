@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!------Fonts------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Go Pro Website</title>
+  </head>
+  <body>
+    <nav class="mobile-nav" id="mobile-nav" role="navigation">
+      <a
+        href="javascript:void(0)"
+        class="mobile-nav__btn-close"
+        onclick="closeNav()"
+      >
+        <i class="fa fa-solid fa-xmark"></i>
+      </a>
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Home</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">About</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Company</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Pages</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Blog</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Shop</a>
+        </li>
+      </ul>
+      <div class="mobile-nav__buttons">
+        <a href="#" class="btn btn-bordered">Get Started</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container-wide">
+        <nav class="nav" role="navigation">
+          <img class="nav__logo" src="images/logo.png" />
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active" href="#">Home</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Company</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Pages</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Shop</a></li>
+          </ul>
+
+          <div class="nav-button-wrap">
+            <a class="nav__button" href="#"
+              >Get Started <i class="fa fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="burger">
+        <a
+          href="javascript:void(0);"
+          class="nav__burger"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-wrap">
+            <div class="hero-content">
+              <h4 class="hero-content__sub-title rounded-title">
+                Digital Marketing Agency
+              </h4>
+              <h1 class="hero-content__title">
+                Advanced analytics to grow your business
+              </h1>
+              <p class="hero-content__desc">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <div class="hero-buttons">
+                <a class="btn btn-black" href="#"
+                  >Get Started <i class="fa fa-solid fa-arrow-right"></i
+                ></a>
+                <a class="btn btn-bordered" href="#"
+                  >How it works <i class="fa fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="hero-img-wrap">
+              <img src="images/typing.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="container">
+          <ul class="clients-list text-center">
+            <li class="clients-list__item">
+              <img alt="" class="clients-list__img" src="images/ob-icon.png" />
+            </li>
+            <li class="clients-list__item">
+              <img
+                alt=""
+                class="clients-list__img"
+                src="images/love-clip.png"
+              />
+            </li>
+            <li class="clients-list__item">
+              <img
+                alt=""
+                class="clients-list__img"
+                src="images/sushi-icon.png"
+              />
+            </li>
+            <li class="clients-list__item">
+              <img
+                alt=""
+                class="clients-list__img"
+                src="images/paint-icon.png"
+              />
+            </li>
+            <li class="clients-list__item">
+              <img
+                alt=""
+                class="clients-list__img"
+                src="images/lady-icon.png"
+              />
+            </li>
+
+            <li class="clients-list__item">
+              <img
+                alt=""
+                class="clients-list__img"
+                src="images/time-icon.png"
+              />
+            </li>
+
+            <li class="clients-list__item">
+              <img alt="" class="clients-list__img" src="images/m-icon.png" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="ideas">
+        <div class="container">
+          <div class="ideas-grid">
+            <div class="ideas-img-wrap">
+              <img class="m-auto" alt="High Five" src="/images/high-five.png" />
+            </div>
+
+            <div class="ideas-content">
+              <h4 class="ideas-content__sub-title rounded-title">
+                Digital Marketing Agency
+              </h4>
+              <h2 class="ideas-content__title">
+                Fresh Ideas for your business design.
+              </h2>
+              <p class="ideas-content__desc">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+
+              <div class="team-members-grid">
+                <div class="team-member-div">
+                  <div class="team-member-img-wrap">
+                    <img
+                      class="team-member__pic"
+                      src="images/garddy.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h3 class="team-member-desc__title">Garddy</h3>
+                    <p class="team-member__desc">
+                      Dicta maiores architecto rerum optio fugit iste tenetur
+                      fuga debitis sit quis sunt atque itaque, reiciendis
+                      sapiente porro ipsa, laborum quod nulla, inventore numquam
+                      recusandae dolores minima omnis voluptas?
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-member-div">
+                  <div class="team-member-img-wrap">
+                    <img
+                      class="team-member__pic"
+                      src="images/herdic.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h3 class="team-member-desc__title">Herdric</h3>
+                    <p class="team-member__desc">
+                      Dicta maiores architecto rerum optio fugit iste tenetur
+                      fuga debitis sit quis sunt atque itaque, reiciendis
+                      sapiente porro ipsa, laborum quod nulla, inventore numquam
+                      recusandae dolores minima omnis voluptas?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-small text-center">
+            <h2 class="ideas-content__title">
+              Fresh Ideas for your business design.
+            </h2>
+
+            <p class="ideas-content__desc">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+
+          <div class="team-members-grid row">
+            <div class="team-member-div">
+              <div class="team-member-img-wrap">
+                <img class="team-member__pic" src="images/garddy.png" alt="" />
+              </div>
+              <div>
+                <h3 class="team-member-desc__title">Garddy</h3>
+                <p class="team-member__desc">
+                  Consectetur adipiscing elit duis tristique sollicitudin nibh
+                  sit amet commodo nulla facilisi nullam vehicula ipsum a arcu
+                  cursus vitae congue
+                </p>
+              </div>
+            </div>
+
+            <div class="team-member-div">
+              <div class="team-member-img-wrap">
+                <img class="team-member__pic" src="images/herdic.png" alt="" />
+              </div>
+              <div>
+                <h3 class="team-member-desc__title">Herdric</h3>
+                <p class="team-member__desc">
+                  Consectetur adipiscing elit duis tristique sollicitudin nibh
+                  sit amet commodo nulla facilisi nullam vehicula ipsum a arcu
+                  cursus vitae congue
+                </p>
+              </div>
+            </div>
+
+            <div class="team-member-div">
+              <div class="team-member-img-wrap">
+                <img class="team-member__pic" src="images/herdic.png" alt="" />
+              </div>
+              <div>
+                <h3 class="team-member-desc__title">Herdric</h3>
+                <p class="team-member__desc">
+                  Consectetur adipiscing elit duis tristique sollicitudin nibh
+                  sit amet commodo nulla facilisi nullam vehicula ipsum a arcu
+                  cursus vitae congue
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-leading-company">
+        <div class="container">
+          <div class="ideas-grid">
+            <div class="ideas-content">
+              <h4 class="ideas-content__sub-title rounded-title">
+                Top Leading Company
+              </h4>
+              <h2 class="ideas-content__title">
+                Fresh Ideas for your business design, Top digital marketing
+                service company
+              </h2>
+              <p class="ideas-content__desc">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+
+              <div class="team-members-grid row">
+                <div class="team-member-div">
+                  <div class="team-member-img-wrap">
+                    <img
+                      class="team-member__pic"
+                      src="images/garddy.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h3 class="team-member-desc__title">Guy Hawkins</h3>
+                    <p class="team-member__desc">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="team-member-div">
+                  <div class="team-member-img-wrap">
+                    <img
+                      class="team-member__pic"
+                      src="images/herdic.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h3 class="team-member-desc__title">Darlene Robertson</h3>
+                    <p class="team-member__desc">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ideas-img-wrap">
+              <img
+                class="m-auto"
+                alt="High Five"
+                src="/images/top-leading.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrap-grid">
+          <div class="col">
+            <img src="images/logo.png" alt="logo" />
+
+            <h3>Eleanor Pena</h3>
+            <p class="footer__desc">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation.
+            </p>
+          </div>
+          <div class="col">
+            <h3>ABOUT US</h3>
+
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Mission & vision</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Comapny</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Projects</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Team</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>DISCOVER</h3>
+
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Mission & vision</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Comapny</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Projects</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Team</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>USEFUL LINKS</h3>
+
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Mission & vision</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Comapny</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Projects</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Our Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright-block">
+      <p class="text-center">Copyright, All Rights Resreved</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
