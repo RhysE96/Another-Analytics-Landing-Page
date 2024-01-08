@@ -216,6 +216,7 @@ h3 {
   position: fixed;
   right: 40px;
   top: 40px;
+  z-index: 2;
 }
 
 .burger .fa {
